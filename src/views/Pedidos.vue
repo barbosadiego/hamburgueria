@@ -1,7 +1,7 @@
 <template>
-  <div class="peditos">
+  <section class="main-container">
     <h1>Pedidos</h1>
-  </div>
+  </section>
 </template>
 
 <script>
