@@ -82,6 +82,41 @@
     }
   ],
   "burgers": [
-    
+    {
+      "nome": "DIEGO GUTEMBERG BARBOSA",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Cheddar",
+        "Pepino"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "nome": "zeca",
+      "carne": "Picanha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Bacon",
+        "Cebola roxa",
+        "Pepino"
+      ],
+      "status": "Solicitado",
+      "id": 2
+    },
+    {
+      "nome": "Joaquim",
+      "carne": "Veggie burger",
+      "pao": "Pão Mexicano",
+      "opcionais": [
+        "Pepino",
+        "Cebola roxa",
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 3
+    }
   ]
 }
