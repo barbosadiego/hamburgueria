@@ -84,105 +84,13 @@
   "burgers": [
     {
       "nome": "DIEGO GUTEMBERG BARBOSA",
-      "carne": "Maminha",
+      "carne": "Alcatra",
       "pao": "Italiano Branco",
       "opcionais": [
-        "Bacon",
-        "Cheddar",
-        "Pepino"
+        "Cheddar"
       ],
       "status": "Solicitado",
       "id": 1
-    },
-    {
-      "nome": "zeca",
-      "carne": "Picanha",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon",
-        "Cebola roxa",
-        "Pepino"
-      ],
-      "status": "Solicitado",
-      "id": 2
-    },
-    {
-      "nome": "Joaquim",
-      "carne": "Veggie burger",
-      "pao": "Pão Mexicano",
-      "opcionais": [
-        "Pepino",
-        "Cebola roxa",
-        "Tomate"
-      ],
-      "status": "Solicitado",
-      "id": 3
-    },
-    {
-      "nome": "Maria",
-      "carne": "Picanha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 4
-    },
-    {
-      "nome": "André",
-      "carne": "Picanha",
-      "pao": "Integral",
-      "opcionais": [
-        "Bacon",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 5
-    },
-    {
-      "nome": "Rarael da Silva",
-      "carne": "Maminha",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Bacon",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 6
-    },
-    {
-      "nome": "Torquato Quaresma",
-      "carne": "Picanha",
-      "pao": "Pão Mexicano",
-      "opcionais": [
-        "Bacon",
-        "Cheddar",
-        "Salame",
-        "Pepino"
-      ],
-      "status": "Solicitado",
-      "id": 7
-    },
-    {
-      "nome": "Will Smith",
-      "carne": "Picanha",
-      "pao": "Italiano Branco",
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 8
-    },
-    {
-      "nome": "José",
-      "carne": "Picanha",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Bacon",
-        "Cheddar",
-        "Pepino"
-      ],
-      "status": "Solicitado",
-      "id": 9
     }
   ]
 }
