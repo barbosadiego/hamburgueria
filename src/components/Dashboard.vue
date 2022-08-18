@@ -8,14 +8,14 @@
       <div>Opcionais:</div>
       <div>Ações:</div>
     </div>
-    <div class="burger-table-row" v-for="item in burgers" :key="item.id">
-      <div class="order-number">{{ item.id }}</div>
-      <div>{{ item.nome }}</div>
-      <div>{{ item.pao }}</div>
-      <div>{{ item.carne }}</div>
+    <div class="burger-table-row" v-for="burger in burgers" :key="burger.id">
+      <div class="order-number">{{ burger.id }}</div>
+      <div>{{ burger.nome }}</div>
+      <div>{{ burger.pao }}</div>
+      <div>{{ burger.carne }}</div>
       <div>
         <ul>
-          <li v-for="opcao, index in item.opcionais" :key="index">
+          <li v-for="opcao, index in burger.opcionais" :key="index">
             {{ opcao }}
           </li>
         </ul>
@@ -23,7 +23,14 @@
       <div>
         <select name="status" class="status">
           <option value="">Selecione</option>
-          <option value="producao">Em produção</option>
+          <option 
+            v-for="item in status" 
+            :key="item.id" 
+            :value="item.tipo"
+            :selected="burger.status === item.tipo"
+            >
+            {{ item.tipo }}
+          </option>
         </select>
         <button class="delete-btn">Cancelar</button>
       </div>
@@ -47,6 +54,12 @@ export default {
       const req = await fetch(`${this.baseURL}/burgers`);
       const data = await req.json();
       this.burgers = data;
+      this.getStatus();
+    },
+    async getStatus(){
+      const req = await fetch(`${this.baseURL}/status`);
+      const data = await req.json();
+      this.status = data;
     }
   },
   mounted(){
@@ -63,7 +76,7 @@ export default {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 80px repeat(5, 1fr);
-  text-align: center;
+  /* text-align: center; */
   padding: 12px;
   align-items: center;
 }
