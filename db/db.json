@@ -89,8 +89,19 @@
       "opcionais": [
         "Cheddar"
       ],
-      "status": "Solicitado",
+      "status": "Finalizado",
       "id": 1
+    },
+    {
+      "nome": "Damião",
+      "carne": "Alcatra",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Pepino"
+      ],
+      "status": "Finalizado",
+      "id": 2
     }
   ]
 }
