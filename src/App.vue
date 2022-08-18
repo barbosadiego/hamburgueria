@@ -58,4 +58,9 @@ h1{
   margin-bottom: 30px;
   color: var(--text);
 }
+ul, li{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
 </style>
