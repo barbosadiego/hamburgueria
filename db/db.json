@@ -84,23 +84,14 @@
   "burgers": [
     {
       "nome": "DIEGO GUTEMBERG BARBOSA",
-      "carne": "Alcatra",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Cheddar"
-      ],
-      "status": "Finalizado",
-      "id": 1
-    },
-    {
-      "nome": "Damião",
-      "carne": "Alcatra",
+      "carne": "Veggie burger",
       "pao": "3 Queijos",
       "opcionais": [
-        "Bacon",
-        "Pepino"
+        "Pepino",
+        "Salame",
+        "Tomate"
       ],
-      "status": "Finalizado",
+      "status": "Em produção",
       "id": 2
     }
   ]
